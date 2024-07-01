@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.minebit.unblock.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "SwitchMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "unblock",
+  "version": "${version}",
+  "name": "unblock",
+  "description": "Connect to servers banned by mojang",
+  "authors": [
+    "pypaq"
+  ],
+  "contact": {
+    "website": "https://devpins.org",
+    "repo": "https://github.com/AntonIXO/unblock"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.minebit.unblock.client.UnblockClient"
+    ]
+  },
+  "mixins": [
+    "unblock.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
